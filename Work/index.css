@@ -1,0 +1,195 @@
+*{
+    border: 1px solid red;
+}
+
+.page{
+    background-color: #1e1e1e;
+    margin: auto;
+    width: 360px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+}
+
+.header_logo{
+    width: 70px;
+    height: 15px;
+    margin: 24px 0 0 20px;
+}
+
+.header_menu{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_menu-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header_menu-ltem{
+    margin-bottom: 12px;
+}
+
+.header_menu-link{
+    color: aliceblue;
+    font-family: "Inter" Arial, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.cover{
+background-image: url(./images/cover.svg);
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+margin: 7px 0 30px 0;
+}
+
+.cover_title{
+    margin: 0;
+    color: aliceblue;
+    font-size: 72px;
+    font-family: "ebygrand" sans-serif;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.accent-span{
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.intro{
+    color: aliceblue;
+}
+
+.intro__heading{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.intro__title{
+    margin: 0;
+}
+
+.reasons{
+    background-color: yellow;      
+}
+
+.content-section__list-accent{
+    font-weight: 700;
+}
+
+.content-section__subtitl{ 
+    margin: 0; 
+    margin-left: 2em; 
+    
+} 
+
+.content-section__subtitl1{ 
+    margin: 0; 
+    margin-left: 0; 
+} 
+
+.spanish{ 
+    text-align: right; 
+    margin: 39px; 
+} 
+
+.spanish1{ 
+    text-align: left; 
+    margin: -27px; 
+} 
+
+.content-section__introduction{
+    margin: 20px;
+}
+
+.content-section__list-item{
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.content-section__list{
+    padding-left: 33px;
+}
+
+.qwe{
+    background-color: black;
+    color: aliceblue;
+}
+
+.card__author-photo{ 
+    width: 100px; 
+    height: 100px; 
+border-radius: 100px; 
+margin-top: 10px; 
+margin-left: 10px; 
+} 
+.card_theme_bright{ 
+    background-color: #343434; 
+    width: auto; 
+    border-radius: 20px; 
+} 
+.text-leftt{ 
+font-size: 22px; 
+margin: 20px 20px 20px; 
+ 
+} 
+.text-rightt{ 
+    font-size: 22px; 
+    margin: 20px 20px 20px; 
+} 
+
+.card{ 
+    margin-top: 16px; 
+    background-color: yellow; 
+    color: black; 
+    border-radius: 20px; 
+} 
+
+.card{ 
+    margin: 1px; 
+    margin-top: 32px; 
+    margin-bottom: 32px; 
+} 
+
+.text-zize{ 
+    font-size: 16px; 
+    margin: 20px;
+} 
+
+.text{ 
+    margin: 20px; 
+    color: aliceblue;
+} 
+
+.footer{
+    color: aliceblue;
+}
+
+.footer__copy{ 
+    margin-right: 70px; 
+    margin-left: 20px; 
+} 
+
+.footer__links{ 
+  margin-left: 70px; 
+  margin-right: 20px; 
+}
